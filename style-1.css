@@ -1,0 +1,124 @@
+body {
+  background-color: black;
+  color: #ffff;
+  font-family: 'Kaisei HarunoUmi', serif;
+}
+.profile-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.main-content {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.social-icons {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+.social-icons .twitter {
+  padding: 0 20px;
+}
+.about-me {
+  display: flex;
+  gap: 10%;
+  justify-content: space-between;
+  width: 100%;
+}
+.about-title,
+.about-content {
+  width: 50%;
+}
+.chat-now {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+.text-center {
+  text-align: center;
+}
+.margin {
+  margin: 8% 0;
+}
+.one {
+  font-size: 50px;
+  font-weight: 900;
+}
+.design-pg {
+  font-size: 50px;
+  font-weight: 800;
+}
+.portfolio {
+  font-size: 100%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.arrow {
+  display: flex;
+  justify-content: center;
+  margin-left: 30%;
+}
+.images {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+/* .images div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+} */
+
+.button {
+  margin: 5%;
+}
+.about {
+  display: flex;
+  gap: 10%;
+  justify-content: space-between;
+  width: 100%;
+}
+.about-content1,
+.about-content2 {
+  width: 50%;
+}
+.quote {
+  font-weight: 600;
+}
+.security {
+  margin-top: 10%;
+  font-size: 130%;
+  font-weight: 800;
+}
+.phone {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+.profile2 {
+  margin-top: 3%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.location {
+  font-size: 130%;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+.address {
+  display: flex;
+  justify-content: center;
+}
+.line {
+  border: 6px solid white;
+  width: 500px;
+}
